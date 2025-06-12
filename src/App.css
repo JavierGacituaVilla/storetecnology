@@ -1,0 +1,14 @@
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-height: calc(100vh - 60px); /* navbar space */
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+
+.product-grid::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
